@@ -1,6 +1,6 @@
 # Get the important Concepts of Core Java
 This contains:
-- Basic Of Java 
+- BasicOfJava 
 - ObjectOrientedProgramming
-- Exception Handling
+- ExceptionHandling
 - MultiThreading and so on making it;
