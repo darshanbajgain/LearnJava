@@ -104,5 +104,3 @@
     s.close();
     ss.close();
     ```
-
-This README.md file outlines the steps involved in the server-side code for establishing a socket connection, sending and receiving data to/from the client, and closing the connections.
