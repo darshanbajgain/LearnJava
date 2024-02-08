@@ -53,7 +53,7 @@ public class SynchronizationExample {
                 synchronized (resource1) {
                     System.out.println("Thread 2 locked resource 1");
                     try {
-                        // Add your code for resource1 here
+                        Thread.sleep(1000);
                     } catch (Exception e) {
                         System.out.println(e.getMessage());
                     }
