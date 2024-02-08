@@ -30,10 +30,13 @@ public class URLConnectionExample {
             BufferedReader reader = new BufferedReader(new InputStreamReader(con.getInputStream()));
             
             // Read and print each line of data from the connection
-            String line;
-            while ((line = reader.readLine()) != null) {
-                System.out.println(line);
-            }
+            //String line;
+            //while ((line = reader.readLine()) != null) {
+            //    System.out.println(line);
+            //}
+            String line = reader.readLine();
+            //print single line of the file from the website
+            System.out.println(line);
             //close reader
             reader.close();
             
