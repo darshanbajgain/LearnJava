@@ -47,6 +47,5 @@ list.add(32);//Compile Time Error
 ```
 
 Syntax to use generic collection
-``` 
-ClassOrInterface<Type>   
-``` 
+ClassOrInterface<Type>;
+
